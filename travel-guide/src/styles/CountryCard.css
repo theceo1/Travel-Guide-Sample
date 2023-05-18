@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.card {
+  position: relative;
+  width: 200px;
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem auto;
+  padding: 0.5rem 0 0.4rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  /* hyphens: auto; */
+  transition: transform 0.3s ease-out;
+  font-size: 1.2em;
+  background-color: #ffffff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  /* color: rgba(100, 100, 100, 1); */
+}
+
+.card:hover {
+  transform: scale(1.12);
+  opacity: 1;
+  /*background-color: rgba(231, 228, 228, 0.932);*/
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card__title {
+  height: 3rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.card__image {
+  height: 150px;
+  width: 100%;
+}
+
+.tooltip {
+    display:inline-block;
+    position:relative;
+    text-align:left;
+}
+
+.tooltip h3 {margin:12px 0;}
+
+.tooltip .bottom {
+    min-width:200px;
+    /*max-width:400px;*/
+    top:40px;
+    left:50%;
+    transform:translate(-50%, 0);
+    padding:20px;
+    color:#666666;
+    background-color:#EEEEEE;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    /* display:none; */
+    visibility:hidden; opacity:0; transition:opacity 1s;
+}
+
+.tooltip:hover .bottom {
+    display:block;
+    visibility:visible; opacity:1;
+}
+
+/* .tooltip .bottom img {
+    width:400px;
+} */
+
+.tooltip .bottom i {
+    position:absolute;
+    bottom:100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+
+.tooltip .bottom i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(-50%,50%) rotate(45deg);
+    background-color:#EEEEEE;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+
