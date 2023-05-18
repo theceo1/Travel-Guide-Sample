@@ -36,13 +36,7 @@
   [Contributor Code of Conduct](https://github.com/zero-to-mastery/travel-guide/blob/master/CODE_OF_CONDUCT.md)
   
  ## Links
-  [Facebook](https://www.facebook.com/zerotocodemastery/)
-  
-  [Instagram](https://www.instagram.com/andreineagoie/)
-  
-  [Youtube](https://www.youtube.com/channel/UCt7T2EvYBqvlxNU3fbE4Y7g)
-  
-  [Twitter](https://twitter.com/AndreiNeagoie)
+  [Instagram](https://www.instagram.com/_thec.e.o/)
   
 
 
